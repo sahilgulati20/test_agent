@@ -1,6 +1,3 @@
-# news_api_key = "2d0c897fd3124752b5eae50cc10b92c1"          # Replace with your NewsAPI.org key
-    # gemini_api_key = "AIzaSyDt2RvXHzix4cIlFc5OOkd_Kkx-B9FKdkY"      # Replace with your Gemini API key
-
 import asyncio
 import os  # Import os to access environment variables
 from semantic_kernel import Kernel
