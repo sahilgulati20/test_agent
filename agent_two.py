@@ -5,24 +5,6 @@ from semantic_kernel import Kernel, prompt_template
 from semantic_kernel.prompt_template.prompt_template_config import PromptTemplateConfig, InputVariable
 import asyncio
 
-# --- IMPORTANT SECURITY NOTE ---
-# NEVER paste your API keys directly into your code.
-# Use environment variables.
-#
-# How to set environment variables:
-#
-# In Windows Command Prompt:
-# set NEWS_API_KEY=YOUR_KEY_HERE
-# set GEMINI_API_KEY=YOUR_NEW_REVOKED_KEY_HERE
-#
-# In PowerShell:
-# $env:NEWS_API_KEY="YOUR_KEY_HERE"
-# $env:GEMINI_API_KEY="YOUR_NEW_REVOKED_KEY_HERE"
-#
-# In macOS/Linux:
-# export NEWS_API_KEY='YOUR_KEY_HERE'
-# export GEMINI_API_KEY='YOUR_NEW_REVOKED_KEY_HERE'
-
 
 class AgentTwo:
     def __init__(self, kernel: Kernel):
